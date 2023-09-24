@@ -1,5 +1,5 @@
-# Code Comment Remover
-
+# [Code Comment Remover](https://ishanavasthi.in/projects/comments-remover)
+### This project is my submission for SST's Hackathon 2.0
 Code Comment Remover is a web application that allows users to remove comments from code written in various programming languages. It provides support for languages such as C++, Java, Python, GoLang, JavaScript, Ruby, Swift, CSS, and HTML.
 
 ## Features
@@ -18,6 +18,14 @@ Code Comment Remover is a web application that allows users to remove comments f
 3. Click the "Remove Comments" button to process the code.
 4. The cleaned code will appear in the output box.
 5. Use the "Copy to Clipboard" button to copy the result to your clipboard.
+
+## Deployment
+
+The project is live at [https://ishanavasthi.in/projects/comments-remover](https://ishanavasthi.in/projects/comments-remover).
+
+## Video Demo
+
+
 
 ## Installation
 
