@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Comments Remover</title>
+    <meta name="description" content="A General Purpose Comment Remover for almost any programming or markup language. C++, PHP, JavaScript, Python, HTML, Java, CSS, Much more!" />
+    <meta property="og:site_name" content="Remove Comments from Code - Supports most languages" />
+    <meta property="og:title" content="Remove Comments from Code - Supports most languages" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Remove Comments from Code - Supports most languages. C++, JavaScript, Python, HTML, Java, CSS, Much more!" />
+    <meta property="og:image" content="/card.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:url" content="https://go.ishanavasthi.in/remove-comments" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://go.ishanavasthi.in/remove-comments" />
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+</head>
+
+<body class="light-mode">
+    <header>
+        <h1>// Code Comments Remover</h1>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle" checked>
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <main>
+        <div class="input-container">
+            <label for="languageSelect">Select a Language:</label>
+            <select id="languageSelect">
+                <option value="c++">C/C++/C#</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="golang">GoLang</option>
+                <option value="javascript">JavaScript</option>
+                <option value="ruby">Ruby</option>
+                <option value="swift">Swift</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+            </select> <hr>
+            <textarea id="codeInput" placeholder="Enter your code here..."></textarea>
+        </div>
+        <div class="output-container">
+            <button id="removeCommentsBtn">Remove Comments 🗑️</button>
+            <button id="copyToClipboardBtn">Copy to Clipboard 📋</button>
+            <textarea id="codeOutput" placeholder="Result will appear here..." readonly></textarea>
+        </div>
+    </main>
+    <script src="script.min.js"></script>
+</body>
+<footer>
+    Made with ❤️ by <a href="https://ishanavasthi.in?utm_source=Footer">Ishan Avasthi</a>.
+</footer>
+
+</html>
