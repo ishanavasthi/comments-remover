@@ -27,7 +27,7 @@ The project is live at [https://ishanavasthi.in/projects/comments-remover](https
 
 [Here](https://www.loom.com/share/0f4ca141cd0e4286bc4a8816e2888dcc?sid=18b264d4-e2bb-4439-bf79-6e09604e28e2) is a video of working of the project - [https://www.loom.com/share/0f4ca141cd0e4286bc4a8816e2888dcc](https://www.loom.com/share/0f4ca141cd0e4286bc4a8816e2888dcc).
 
-[![Screenshot](https://github.com/ishanavasthi/comments-remover/assets/87573177/c4a8aaa3-5c2d-463d-8225-64083a44e982)]
+![Screenshot](https://github.com/ishanavasthi/comments-remover/assets/87573177/c4a8aaa3-5c2d-463d-8225-64083a44e982)
 
 ## Installation
 
