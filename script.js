@@ -11,9 +11,6 @@ const body = document.body;
 removeCommentsBtn.addEventListener("click", () => {
     const selectedLanguage = languageSelect.value;
     const inputCode = codeInput.value;
-    // Implement code comment removal logic based on the selected language
-    // For example, you can use regular expressions to remove comments.
-    // Replace the following line with the actual logic.
     const outputCode = removeComments(inputCode, selectedLanguage);
     codeOutput.value = outputCode;
 });
